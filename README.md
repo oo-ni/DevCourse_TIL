@@ -1,7 +1,7 @@
+<a id="readme-top"></a>
+
 # Programmers Backend Dev Course - TIL & Code Archiving
 ![programmers-logo-dark](https://github.com/user-attachments/assets/233593f2-1815-4184-bff6-4820d58a4726)
-
-<a id="readme-top"></a>
 
 <details>
   <summary>목차</summary>
