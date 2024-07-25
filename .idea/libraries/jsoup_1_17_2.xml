@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="jsoup-1.17.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/JavaDemo/src/crawling/jsoup-1.17.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/JavaDemo/src/crawling/jackson-databind-2.15.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/JavaDemo/src/crawling/jackson-core-2.15.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/JavaDemo/src/crawling/jackson-annotations-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaDemo/src/w1/crawling/jackson-annotations-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaDemo/src/w1/crawling/jackson-core-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaDemo/src/w1/crawling/jackson-databind-2.15.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaDemo/src/w1/crawling/jsoup-1.17.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
