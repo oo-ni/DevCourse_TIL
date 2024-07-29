@@ -66,4 +66,9 @@ public interface IBookManager {
 	 * @throws ISBNNotFoundException : 고유번호에 해당하는 도서가 존재하지 않는 예외상황 
 	 */
 	void buy(String isbn, int quantity) throws ISBNNotFoundException;
+
+	void saveData();
+
+	void loadData();
+
 }
