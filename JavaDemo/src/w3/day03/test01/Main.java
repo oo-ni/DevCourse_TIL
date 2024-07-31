@@ -14,7 +14,7 @@ public class Main {
 
         try {
             // 1. 커넥션 생성
-            conn = DriverManager.getConnection("jdbc::mysql://127.0.0.1:3306/workshop");
+            conn = DriverManager.getConnection("jdbc::mysql://localhost:3306/workshop", "root", "1234");
             // 2. SQL 생성
             SQL = "insert into book_tb(title, writer, price, publisher) values('mysql easy', 'yangyu', 30000, 'grepp')";
             // 3. PreparedStatement or Statement에 명령어 담기

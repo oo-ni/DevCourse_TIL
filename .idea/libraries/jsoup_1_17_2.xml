@@ -5,6 +5,7 @@
       <root url="jar://$PROJECT_DIR$/JavaDemo/src/w1/crawling/jackson-core-2.15.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/JavaDemo/src/w1/crawling/jackson-databind-2.15.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/JavaDemo/src/w1/crawling/jsoup-1.17.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaDemo/src/w3/day03/lib/mysql-connector-j-8.4.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
