@@ -9,31 +9,31 @@
     <li>
       <a href="#1주차">1주차</a>
       <ul>
-        <li><a href="###Week-1">Java Basic</a></li>
+        <li><a href="#Week-1">Java Basic</a></li>
       </ul>
     </li>
     <li>
       <a href="#2주차">2주차</a>
       <ul>
-        <li><a href="###Week-2">Java Deep</a></li>
+        <li><a href="#Week-2">Java Deep</a></li>
       </ul>
     </li>
      <li>
       <a href="#3주차">3주차</a>
       <ul>
-        <li><a href="###Week-3">MySQL & JDBC</a></li>
+        <li><a href="#Week-3">MySQL & JDBC</a></li>
       </ul>
     </li>
      <li>
       <a href="#4주차">4주차</a>
       <ul>
-        <li><a href="###Week-4">Java Basic</a></li>
+        <li><a href="#Week-4">Java Basic</a></li>
       </ul>
     </li>
      <li>
       <a href="#5주차">5주차</a>
       <ul>
-        <li><a href="###Week-5">Java Basic</a></li>
+        <li><a href="#Week-5">Java Basic</a></li>
       </ul>
     </li>
   </ol>
