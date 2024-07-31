@@ -7,40 +7,40 @@
   <summary>목차</summary>
   <ol>
     <li>
-      <a href="#1주차">1주차</a>
+      <a href="# 1주차">1주차</a>
       <ul>
-        <li><a href="#Java Basic">Java Basic</a></li>
+        <li><a href="### Week-1">Java Basic</a></li>
       </ul>
     </li>
     <li>
-      <a href="#2주차">2주차</a>
+      <a href="# 2주차">2주차</a>
       <ul>
-        <li><a href="#Java Basic">Java Basic</a></li>
+        <li><a href="### Week-2">Java Deep</a></li>
       </ul>
     </li>
      <li>
-      <a href="#3주차">2주차</a>
+      <a href="# 3주차">3주차</a>
       <ul>
-        <li><a href="#Java Basic">Java Basic</a></li>
+        <li><a href="### Week-3">MySQL & JDBC</a></li>
       </ul>
     </li>
      <li>
-      <a href="#4주차">2주차</a>
+      <a href="# 4주차">4주차</a>
       <ul>
-        <li><a href="#Java Basic">Java Basic</a></li>
+        <li><a href="### Week-4">Java Basic</a></li>
       </ul>
     </li>
      <li>
-      <a href="#5주차">2주차</a>
+      <a href="# 5주차">5주차</a>
       <ul>
-        <li><a href="#Java Basic">Java Basic</a></li>
+        <li><a href="### Week-5">Java Basic</a></li>
       </ul>
     </li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## 1주차
+# 1주차
 OT & Java 기본
 <div>
   <a>
@@ -50,20 +50,58 @@ OT & Java 기본
 
 <br>
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+<b>Java 기초 문법정리 및 활용, Java Collection Framework</b>
+### Week-1
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/w1)
+* Java 기본 문법 (자료형, 변수, 입출력)
+* 자료구조 구현 (Array, Map, Stack, Queue)
+* 입출력 stream
+* Client-Server 기초
+* Jsoup 활용 Melon 차트 및 Naver Finance 크롤링
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# 2주차
+Java 심화 & OOP
+<div>
+  <a>
+    <img alt="java" src="https://img.shields.io/badge/java-C01818?style=for-the-badge&logo=coffeescript&logoColor=white">
+  </a>
+</div>
 
+<br>
+
+<b>다형성, 캡슐화 등 객체지향 프로그래밍 기본, Stream 및 Lambda 활용 자바 심화 문법 활용</b>
+### Week-2
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/w2)
+* 알고리즘 접근법
+* 객체지향 프로그래밍
+* 예외처리
+* OOP 활용 다양한 도메인의 아키텍처 구현
+* Stream API, Lambda 문법 활용 알고리즘 풀이
+* 쓰레드와 버퍼
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# 3주차
+MySQL & JDBC
+<div>
+  <a>
+    <img alt="MySQL" src="https://img.shields.io/badge/Mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+  </a>
+  <a>
+    <img alt="java" src="https://img.shields.io/badge/java-C01818?style=for-the-badge&logo=coffeescript&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-3
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/w3)
+* DB 구조와 모델링 
+* SQL 문법 활용
+* JDBC 활용 DB 연동
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!--
 ## Getting Started
