@@ -37,7 +37,7 @@ public interface IBookManager {
 	 */
 	Magazine[] getMagazines();
 	/**
-	 * 잡지가 아닌 도서리스트를 반환한다. 
+	 * 잡지가 아닌 도서리스트를 반환한다.
 	 * @return 잡지가 아닌 도서리스트
 	 */
 	Book[] getBooks();
@@ -56,14 +56,14 @@ public interface IBookManager {
 	 * @param isbn : 도서 고유번호
 	 * @param quantity : 판매 수량
 	 * @throws QuantityException : 재고 수량 부족의 예외 상황
-	 * @throws ISBNNotFoundException : 고유번호에 해당하는 도서가 존재하지 않는 예외상황 
+	 * @throws ISBNNotFoundException : 고유번호에 해당하는 도서가 존재하지 않는 예외상황
 	 */
 	void sell(String isbn, int quantity) throws QuantityException, ISBNNotFoundException;
 	/**
 	 * 고유번호에 해당하는 도서를 수량만큼 구매 처리하여 재고를 증가시킨다.
 	 * @param isbn : 도서 고유번호
 	 * @param quantity : 구매 수량
-	 * @throws ISBNNotFoundException : 고유번호에 해당하는 도서가 존재하지 않는 예외상황 
+	 * @throws ISBNNotFoundException : 고유번호에 해당하는 도서가 존재하지 않는 예외상황
 	 */
 	void buy(String isbn, int quantity) throws ISBNNotFoundException;
 
