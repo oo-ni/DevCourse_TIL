@@ -2,7 +2,7 @@ package w3.day03.test01;
 
 import java.sql.*;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         Connection conn = null;
         String SQL = null;
@@ -14,18 +14,25 @@ public class Main {
 
         try {
             // 1. 커넥션 생성
-//            conn = DriverManager.getConnection("jdbc::mysql://59.277.84.200:3306/workshop", "grepp", "grepp");
+//            conn = DriverManager.getConnection("jdbc:mysql://59.277.84.200:3306/workshop", "grepp", "grepp");
             conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/workshop", "root", "3787");
             // 2. SQL 생성
-            SQL = "insert into book_tb(title, writer, price, publisher) values('mysql hard', 'geonoo', 30000, 'grepp')";
+            SQL = "select bno, title, writer, publisher, price from book_tb";
             // 3. PreparedStatement or Statement에 명령어 담기
             pstmt = conn.prepareStatement(SQL);     // Statement는 이렇게 미리 SQL을 넣지 않고 execute하는 시점에 넣는 차이가 있음.
             // 4. 실행하기
             // 4.1 insert/update/delete : int
             // 4.2 select : ResultSet
-            int result = pstmt.executeUpdate();
+            rs = pstmt.executeQuery();
             // 5. 결과값 처리
-            System.out.println("SQL 설정이 완료되었습니다." + result);
+            while (rs.next()) { // next의 결과가 true이면 레코드 있네? 한줄 읽을 수 있다!!
+                int bno = rs.getInt("bno");
+                int price = rs.getInt("price");
+                String title = rs.getString("title");
+                String writer = rs.getString("writer");
+                String pub = rs.getString("publisher");
+                System.out.println(bno + " " + title + " " + writer + " " + pub + " " + price);
+            };
         } catch (SQLException e) {
             e.printStackTrace();
             throw new RuntimeException(e);
