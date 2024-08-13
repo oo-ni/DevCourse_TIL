@@ -100,8 +100,44 @@ MySQL & JDBC
 * DB 구조와 모델링 
 * SQL 문법 활용
 * JDBC 활용 DB 연동
+* OOP 기반 DTO, DAO 활용 미니 프로젝트
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# 4주차
+Tomcat & Servlet
+<div>
+  <a>
+    <img alt="Apache Tomcat" src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black">
+  </a>
+</div>
+
+<b></b>
+### Week-4
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/w4)
+* Tomcat 기반 WAS 아키텍처
+* Servlet + JSP 기본 개념
+* Maven, Gradle 빌드 자동화 도구 학습
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# 5주차
+Spring
+<div>
+  <a>
+    <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-5
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/w5)
+* Spring 기초
+* AOP
+* DI/IoC 기반 Spring Bean 아키텍처
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!--
 ## Getting Started
