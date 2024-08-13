@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sonata1" class="v2_spring_xml.Car" scope="prototype">
+        <constructor-arg ref="koreaTire"/>      <!-- 생성자를 통한 의존객체 주입 -->
+    </bean>
+
+    <bean id="sonata2" class="v2_spring_xml.Car" scope="singleton">
+        <property name="tire" ref="ctire"/>     <!-- 설정자 setter를 통한 의존객체 주입 -->
+    </bean>
+
+    <bean id="ctire" class="v2_spring_xml.ChinaTire"/>
+    <bean id="koreaTire" class="v2_spring_xml.KoreaTire"/>
+
+</beans>
