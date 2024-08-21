@@ -78,7 +78,7 @@ public class BoardRepositoryMysql implements BoardRepository {
         try {
             String sql = " UPDATE BOARD_TB SET ";
 
-            if(board.getTitle()!=null && board.getTitle().length()>0){ // 제목에 변경하고자 값이 확실히 있는지 체크해서
+            if(board.getTitle()!=null && board.getTitle().length()>0){ // 제목에 변경하고자 하는 값이 확실히 있는지 체크해서
                 sql += " TITLE='"+board.getTitle()+"', ";
             }
             if(board.getWriter()!=null && board.getWriter().length()>0){
