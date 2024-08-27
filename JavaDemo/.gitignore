@@ -30,3 +30,9 @@ bin/
 
 ### Ignore all Tomcat folders ###
 src/**/apache-tomcat-*/
+
+### Team Project ###
+src/w4/day01/
+
+### File Upload Path ###
+src/work-spring/upload/
