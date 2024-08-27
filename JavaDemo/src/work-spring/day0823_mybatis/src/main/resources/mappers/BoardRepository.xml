@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.grepp.model.repository.BoardRepository">
+
+    <!-- useGeneratedKeys : 자동으로 키값 생성, keyColum : DB 변수명, keyProperty : DTO 변수명-->
+    <insert id="insert" parameterType="com.grepp.model.dto.BoardDTO" useGeneratedKeys="true" keyColumn="no" keyProperty="no">
+        INSERT INTO BOARD_TB(TITLE, WRITER, CONTENT, REG_DATE) VALUES(#{title}, #{writer}, #{content}, NOW())
+    </insert>
+
+    <select id="selectAll" resultType="com.grepp.model.dto.BoardDTO">
+        SELECT NO, TITLE, WRITER, READ_COUNT, REG_DATE FROM BOARD_TB
+    </select>
+
+    <select id="selectOne" parameterType="int" resultMap="rrr">
+        <!-- SELECT NO, TITLE, WRITER, CONTENT, READ_COUNT, REG_DATE FROM BOARD_TB WHERE NO = #{no} -->
+        SELECT B.NO, B.TITLE, B.WRITER, B.CONTENT, B.READ_COUNT, B.REG_DATE, F.FNO, F.ORIGINAL_NAME, F.SAVED_PATH
+        FROM BOARD_TB B JOIN FILE_TB F
+        ON B.NO = F.BNO
+        WHERE B.NO = #{no}
+    </select>
+
+    <select id="selectList" resultType="com.grepp.model.dto.BoardDTO">
+        SELECT NO, TITLE, WRITER, READ_COUNT, REG_DATE FROM BOARD_TB
+        ORDER BY REG_DATE DESC
+        LIMIT #{sr}, #{cnt}
+    </select>
+
+    <select id="selectCount" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM BOARD_TB
+    </select>
+
+    <!-- resultMap : 내가 원하는 형태로 SQL 결과를 가공하는 작업 -->
+    <resultMap id="rrr" type="com.grepp.model.dto.BoardDTO">
+        <result property="no" column="NO"/>
+        <result property="title" column="TITLE"/>
+        <result property="writer" column="WRITER"/>
+        <result property="content" column="CONTENT"/>
+        <result property="readCount" column="READ_COUNT"/>
+        <result property="regDate" column="REG_DATE"/>
+        <!-- 하나의 값에 여러 데이터가 매핑될 때 쓸 수 있음 -->
+        <collection property="fileDTOList" ofType="com.grepp.model.dto.FileDTO">
+            <result property="fno" column="FNO"/>
+            <result property="savedPath" column="SAVED_PATH"/>
+            <result property="originalName" column="ORIGINAL_NAME"/>
+        </collection>
+    </resultMap>
+</mapper>
