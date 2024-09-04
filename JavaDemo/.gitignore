@@ -32,7 +32,10 @@ bin/
 src/**/apache-tomcat-*/
 
 ### Team Project ###
-src/w4/day01/
+src/w4/day01
 
 ### File Upload Path ###
 src/work-spring/upload/
+
+### IntelliJ IDEA ###
+.idea
