@@ -14,7 +14,7 @@
     <select id="selectOne" parameterType="int" resultMap="rrr">
         <!-- SELECT NO, TITLE, WRITER, CONTENT, READ_COUNT, REG_DATE FROM BOARD_TB WHERE NO = #{no} -->
         SELECT B.NO, B.TITLE, B.WRITER, B.CONTENT, B.READ_COUNT, B.REG_DATE, F.FNO, F.ORIGINAL_NAME, F.SAVED_PATH
-        FROM BOARD_TB B JOIN FILE_TB F
+        FROM BOARD_TB B LEFT JOIN FILE_TB F
         ON B.NO = F.BNO
         WHERE B.NO = #{no}
     </select>

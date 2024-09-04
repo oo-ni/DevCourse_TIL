@@ -17,10 +17,33 @@
 <form action="<%=request.getContextPath()%>/board/write" method="post" enctype="multipart/form-data">
     제목 : <input type="text" name="title"><br>
     내용 : <textarea name="content"></textarea><br>
-    <input type="file" name="uploadFile"><br>
-    <input type="file" name="uploadFile"><br>
-    <input type="submit" value="작성완료">
+
+    <button id="btnAddFile">파일 추가</button>
+    <div id="divFiles"></div>
+    <input type="submit" value="작성 완료">
 </form>
 
+<script>
+    document.getElementById('btnAddFile').onclick = function () {
+        let div = document.createElement('div');
+
+        let input = document.createElement('input');
+        input.setAttribute('type', 'file');
+        input.setAttribute('name', 'uploadFile');
+
+        let remove = document.createElement('button');
+        remove.innerText = '파일 삭제';
+        remove.onclick = function () {
+            div.remove();
+            return false;
+        }
+
+        div.appendChild(input);     // <div> <input type="file" name="uploadFile"> </div>
+        div.appendChild(remove);
+        document.getElementById('divFiles').appendChild(div);
+
+        return false;   // form이 갑자기 파일 추가 버튼 눌렀다고 submit 하는 상황을 막아줌.
+    }
+</script>
 </body>
 </html>

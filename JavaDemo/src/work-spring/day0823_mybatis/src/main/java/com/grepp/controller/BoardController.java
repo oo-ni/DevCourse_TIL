@@ -40,8 +40,8 @@ public class BoardController {
 
     @PostMapping("/write")  // headers = ("content-type=multipart/*")
     public ModelAndView write(BoardDTO board, HttpSession session, @RequestParam(value = "uploadFile", required = false) MultipartFile[] uploadFile) throws SQLException, IOException {    // 로그인 안된 사용자는 글쓰기 못하게 하고 싶음.
-        System.out.println(uploadFile[0].getOriginalFilename());
-        System.out.println(uploadFile[1].getOriginalFilename());
+//        System.out.println(uploadFile[0].getOriginalFilename());
+//        System.out.println(uploadFile[1].getOriginalFilename());
 
         // 첨부파일 저장 이전에 일단 게시글부터 작성완료 되어야 하고,
         board.setWriter((String) session.getAttribute("loginId"));
@@ -96,7 +96,6 @@ public class BoardController {
     public ModelAndView read(@RequestParam("no") int no) throws SQLException {  // 로그인 안된 사용자는 글읽기 못하게 하고 싶음.
         ModelAndView mav = new ModelAndView("view");
         mav.addObject("bbb", boardService.read(no));
-        System.out.println("bbb 추가 완료");
 
         return mav;
     }
