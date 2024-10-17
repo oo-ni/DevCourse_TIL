@@ -18,22 +18,28 @@
         <li><a href="#Week-2">Java Deep</a></li>
       </ul>
     </li>
-     <li>
+    <li>
       <a href="#3주차">3주차</a>
       <ul>
         <li><a href="#Week-3">MySQL & JDBC</a></li>
       </ul>
     </li>
-     <li>
+    <li>
       <a href="#4주차">4주차</a>
       <ul>
-        <li><a href="#Week-4">Java Basic</a></li>
+        <li><a href="#Week-4">Tomcat & Servlet</a></li>
       </ul>
     </li>
-     <li>
+    <li>
       <a href="#5주차">5주차</a>
       <ul>
-        <li><a href="#Week-5">Java Basic</a></li>
+        <li><a href="#Week-5">Spring Basic</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#6주차">6주차</a>
+      <ul>
+        <li><a href="#Week-6"></a>Spring MVC & Mybatis</li>
       </ul>
     </li>
   </ol>
@@ -135,6 +141,119 @@ Spring
 * Spring 기초
 * AOP
 * DI/IoC 기반 Spring Bean 아키텍처
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 6주차
+Spring MVC, Mybatis
+<div>
+  <a>
+    <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
+    <img alt="Mybatis" src="https://img.shields.io/badge/Mybatis-EC1C24?style=for-the-badge&logoColor=red">
+  </a>
+</div>
+
+<b></b>
+### Week-6
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/work-spring)
+* Spring MVC 패턴
+* Cookie와 Session을 활용한 상태관리
+* MyBatis 활용 데이터 매핑
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 7주차
+Spring Boot
+<div>
+  <a>
+    <img alt="Spring Boot" src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-7
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/work-spring)
+* Spring Boot 기본
+* Gradle 활용 의존성 관리
+* 프론트 연동 test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 8주차
+JPA, Spring Security, JWT
+<div>
+  <a>
+    <img alt="JPA" src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white">
+    <img alt="Spring Security" src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white">
+    <img alt="JWT" src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-8
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/work-spring)
+* JPA 활용 데이터 매핑
+* Spring Security
+* JWT
+* 데이터 암호화 방식
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 9주차
+1차 프로젝트
+<div>
+  <a>
+    <img alt="Project1" src="https://img.shields.io/badge/Project 1-DA552F?style=for-the-badge&logo=producthunt&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-9
+(https://github.com/prgrms-be-devcourse/NBE1_1_Team7)
+* 로컬 카페 Grids & Circles API 개발 미니 프로젝트
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 10주차
+추석 연휴
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 11주차 - 13주차
+2차 프로젝트
+<div>
+  <a>
+    <img alt="Project2" src="https://img.shields.io/badge/Project 2-DA552F?style=for-the-badge&logo=producthunt&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-11 .. Week-13
+(https://github.com/prgrms-be-devcourse/NBE1_2_Team9)
+* 다양한 기능을 활용한 안정적이고 효율적인 여행 일정 관리 사이트 Voya9e
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 14주차
+Kotlin
+<div>
+  <a>
+    <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-14
+(https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/work-kotlin)
+* Kotlin 문법
+* Android Developers 문제 풀이
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
