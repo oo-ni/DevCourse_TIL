@@ -265,7 +265,7 @@ Kotlin
 
 <b></b>
 # 15주차
-Git, Docker, 
+Git, GitOps, Docker활용 SonarQube 코드 품질 테스트 실습, 개발자 포트폴리오
 <div>
   <a>
     <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
