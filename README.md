@@ -150,6 +150,8 @@ Spring MVC, Mybatis
 <div>
   <a>
     <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
+  </a>
+  <a>
     <img alt="Mybatis" src="https://img.shields.io/badge/Mybatis-EC1C24?style=for-the-badge&logoColor=red">
   </a>
 </div>
@@ -187,7 +189,11 @@ JPA, Spring Security, JWT
 <div>
   <a>
     <img alt="JPA" src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white">
+  </a>
+  <a>
     <img alt="Spring Security" src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white">
+  </a>
+  <a>
     <img alt="JWT" src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white">
   </a>
 </div>
@@ -254,6 +260,34 @@ Kotlin
 (https://github.com/oo-ni/DevCourse_TIL/tree/main/JavaDemo/src/work-kotlin)
 * Kotlin 문법
 * Android Developers 문제 풀이
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<b></b>
+# 15주차
+Git, Docker, 
+<div>
+  <a>
+    <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  </a>
+  <a>
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a>
+    <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  </a>
+  <a>
+    <img alt="SonarQube" src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white">
+  </a>
+</div>
+
+<b></b>
+### Week-14
+* Git
+* GitOps
+* Docker
+* SonarQube
+* 포트폴리오 작성법 (Notion, GitHub Pages)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
